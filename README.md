@@ -16,7 +16,9 @@ print(core.version())
 
 4. If all is well you can now setup input.conf and mpv.conf located in %AppData%\mpv.net
 
-input.conf add
+input.conf add 
+
+**Only nessecary on old versions, new versions already have a profile swap menu**
 
 ```ini
 _ set profile YourProfileNameHere #menu: Profiles > profile YourProfileNameHere
