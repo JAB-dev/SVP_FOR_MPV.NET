@@ -49,3 +49,7 @@ To make the script use your displays fps use
 ```
 desired_fps=display_fps
 ```
+If you get artifacts change the area of the mask to 200
+```
+smoothfps_params = "{gpuid:11,gpu_qn:2,"+ratestring+",algo:2,mask:{area:200},scene:{}}"
+```
